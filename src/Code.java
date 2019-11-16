@@ -19,7 +19,8 @@ public class Code extends JPanel{
     }
 
     public void paintComponent(Graphics g){
-        g.setColor(Color.RED);
+        super.paintComponent(g);
+        g.setColor(Color.BLUE);
         g.drawLine(0,0,100,100);
     }
     public void loop(){
